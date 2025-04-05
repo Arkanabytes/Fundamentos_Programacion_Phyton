@@ -1,4 +1,4 @@
-# Calificacion Alummno
+# Calificacion Alummno dice si esta eximido o no
 
 calificacion = float (input('Ingrese la calificacion de un Alummno '))
 if calificacion >= 6.0:
