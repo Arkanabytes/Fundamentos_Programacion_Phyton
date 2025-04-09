@@ -1,4 +1,4 @@
-# Listas
+# Listas se pueden mezclar
 Frutas= ['Manzana','Piña','Melon','Franbueza',]
 contador = 0
 for Frutas in Frutas:
