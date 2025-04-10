@@ -22,3 +22,8 @@ print(frutas) # ['kiwi', 'Pera', 'Uva']
 print(len(frutas))# cantidad de elementos
 frutas.sort() #ordenar alfabeticamente
 print(frutas)
+
+# recorre una lista con un for
+
+for fruta in frutas:
+    print(f'Me gusta la {fruta}')
