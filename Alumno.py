@@ -30,5 +30,14 @@ alumnos = {
 }
 }
 
-# Accedwer a alumno especifico
+# Acceder a alumno especifico
 print(alumnos['12345678-9']['nombre'])
+
+#recorrer diccionario
+
+for rut,datos in alumnos.items():
+    print(f'Rut: {rut}')
+    print(f'Nombre {datos['nombre']}')
+    print(f'Edad {datos['edad']}')
+    print(f'Carrera {datos['carrera']}')
+    
