@@ -22,3 +22,10 @@ print(producto)
 
 for clave in producto:
     print(clave, '->', producto [clave])
+    
+# Modificar agregar y eliminar datos
+producto['stock'] = 30 # modificar
+producto['categoria'] = 'periferico' #agregar
+del producto ['precio'] #eliminar
+print ('----------------------')
+print(producto)
