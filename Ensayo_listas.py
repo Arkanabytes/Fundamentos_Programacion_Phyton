@@ -7,7 +7,7 @@ nombres =[]
 
 while True:
     nombre= input('Ingrese su nombre o escriba "Fin" para salir ')
-    if nombre == 'fin'or'FIN':
+    if nombre.lower() == 'fin':
         break
     nombres.append(nombre)
 print('Lista de nombres ingresados')
