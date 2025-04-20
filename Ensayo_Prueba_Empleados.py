@@ -1,3 +1,5 @@
+
+#Ejercicio 2: Inventario de empleados
 empleados = {}
 
 while True:
