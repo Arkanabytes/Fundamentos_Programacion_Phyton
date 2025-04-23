@@ -23,9 +23,3 @@ while True:
 print('Lista de nombres ingresados')
 for i, producto in enumerate(compras, start=1):
     print(f'{i}.{producto}')
-
-
-contador = 1
-for productos in compras:
-    print(f'{contador}. {producto}')
-    contador = 1
