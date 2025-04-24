@@ -8,3 +8,5 @@ persona= ()
 persona = ('Consuelo', 35 ,'Santiago')
 nombre, edad, ciudad = persona 
 print(f' Hola {nombre}, tienes {edad} años.')
+
+print('\nAutor: Consuelo Pinto')

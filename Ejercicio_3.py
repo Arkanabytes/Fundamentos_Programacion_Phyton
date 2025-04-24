@@ -9,4 +9,8 @@ persona= {}
 persona['nombre']=input('\nIngrese su nombre: ')
 persona['edad']=int(input('\nIngrese su edad: '))
 persona['pasatiempo']=input('\nIngrese su pasatiempo: ')
-print(f"Nombre: {persona['nombre']} Edad: {persona['edad']}Pasatiempo: {persona['pasatiempo']}.")
+print(f"\n\nNombre: {persona['nombre']}\n\nEdad: {persona['edad']}\n\nPasatiempo: {persona['pasatiempo']}.")
+
+
+
+print('\nAutor: Consuelo Pinto')

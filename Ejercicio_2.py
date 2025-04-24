@@ -14,3 +14,6 @@ while True:
 print ('\n El listado de la compra es: ')
 for i, productos in enumerate(compras, start=1):
     print(f'{i}.{productos}')
+    
+
+print('\nAutor: Consuelo Pinto')
