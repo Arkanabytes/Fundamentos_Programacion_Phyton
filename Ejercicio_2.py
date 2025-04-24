@@ -1,27 +1,16 @@
-# Crear un programa que:
-# Permita agregar dos alumnos desde el teclado (input)
-# guarde los datos de un diccionario
-# Imprima todos los alumnos
+# Ejercicio 2: Listas
+# 1-.Cree un programa en Python que permita al usuario ingresar productos para una lista de compras.
+# 2-.Utilice un bucle while para solicitar los nombres de los productos uno a uno y almacénelos en una
+# lista llamada compras.
+# 3-.El ingreso de productos debe finalizar cuando el usuario escriba la palabra “fin”.
+# Al finalizar, muestre por pantalla el contenido de la lista numerada con este formato:
 
-alumnos ={}
-# repetir 2 veces para ingresar dos veces
-for i in range(2):
-    print(f'\n Registro del primer alumno {i+1}')
-    rut= input('Ingrese el Rut del alumno: ')
-    nombre= input('Ingrese el nombre: ')
-    edad= int (input('Ingrese su edad'))
-    carrera = input('Ingrese carrera: ')
-    
-    alumnos[rut] ={
-            'nombre': nombre,
-            'edad': edad,
-            'carrera': carrera
-    }
-    # mostrar todos los alumnos registrados
-    print ('Listas de alumnos')
-    for i,(rut, datos) in enumerate(alumnos.items(), start = 1):
-        print(f'Alumno: {i}')
-        print(f'Rut {rut}')
-        print(f'Nombre {datos['nombre']}')
-        print(f'Edad {datos['edad']}')
-        print(f'Carrera {datos['carrera']}')
+compras= []
+while True:
+    productos= input('Ingrese una de lista de compras y para finalizar escriba Fin: ')
+    if productos.lower() == 'fin':
+        break
+    compras.append(productos)
+print ('\n El listado de la compra es: ')
+for i, productos in enumerate(compras, start=1):
+    print(f'{i}.{productos}')
