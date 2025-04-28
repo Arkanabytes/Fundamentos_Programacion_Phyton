@@ -6,7 +6,6 @@
 # su nota final.
 
 # Lista
-
 estudiantes={}
 while True:
     nombre= input('Ingrese nombre del estudiante para su registro o escriba "Salir": ')
@@ -24,4 +23,3 @@ while True:
     print('\n Estudiantes registrados: ')
     for nombre in estudiantes.items():
         print(f'{nombre_e} nota del alumno es: {nota} y la edad del alumno es {edad}')
-
