@@ -1,6 +1,4 @@
-
-        
-    #Menu con while True
+#Menu con while True
 
 while True:
     print('\n Menú:')
