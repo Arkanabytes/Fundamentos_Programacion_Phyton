@@ -31,3 +31,8 @@ def ingresoUsuarios():
     usuarios[username] = usuario
 
     print(f"Usuario {username} registrado correctamente con ID {codigo}.")
+
+#Estas mejoras:
+#Previenen errores de ejecución.
+#Mejoran la experiencia de usuario.
+#Agregan validaciones mínimas de seguridad.
