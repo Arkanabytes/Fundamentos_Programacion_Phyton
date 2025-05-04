@@ -14,5 +14,4 @@ print("\nDatos ingresados:")
 for clave, valor in persona.items():
     print(f"{clave.capitalize()}: {valor}")
 
-
 print('\nAutor: Consuelo Pinto')
