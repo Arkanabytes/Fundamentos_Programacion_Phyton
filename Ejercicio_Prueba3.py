@@ -228,7 +228,6 @@ def ingresoUsuarios():
 while True:
     menuUsuarios()
     opUsu = int(input("INGRESE OPCIÓN: "))
-
     if opUsu == 1:
         user = input("Ingrese nombre de usuario: ")
         clave = input("Ingrese password: ")
