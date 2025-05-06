@@ -13,5 +13,4 @@ for i in range (1,100):
         print ('El numero es valido Numero secreto encontrado !')
         break   
     print ('Numero ', num)
-    
 print ('Autor: Consuelo Pinto')
