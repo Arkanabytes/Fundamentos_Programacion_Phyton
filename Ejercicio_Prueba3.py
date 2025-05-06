@@ -3,6 +3,7 @@ import os       # Para funciones del sistema (como limpiar pantalla)
 import re       # Para validación de datos (RUN, correo, etc.)
 import bcrypt   # Para encriptar contraseñas de forma segura
 import sys      # Para controlar el flujo o terminar el programa
+import getpass  # Ocultar contraseña al ingresarla (mas seguro)
 
 
 clientes = {}
