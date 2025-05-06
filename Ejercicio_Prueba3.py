@@ -1,3 +1,10 @@
+import json     # Para guardar/cargar datos en archivos
+import os       # Para funciones del sistema (como limpiar pantalla)
+import re       # Para validación de datos (RUN, correo, etc.)
+import bcrypt   # Para encriptar contraseñas de forma segura
+import sys      # Para controlar el flujo o terminar el programa
+
+
 clientes = {}
 usuarios = {}
 idcliente = 0
