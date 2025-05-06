@@ -1,4 +1,3 @@
-
 #Ejercicio 2: Inventario de empleados
 empleados = {}
 
@@ -13,7 +12,6 @@ while True:
         'cargo': cargo,
         'sueldo': sueldo
     }
-
 print('\nEmpleados Registrados:')
 for nombre, datos in empleados.items():
     print(f'{nombre} trabaja como {datos["cargo"]} y gana ${datos["sueldo"]}')
