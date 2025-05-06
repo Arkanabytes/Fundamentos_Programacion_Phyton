@@ -4,9 +4,7 @@ b = 10
 c = 15
 
 print (a<b) # 5< 10 Verdadero
-
 print (not(a<b))  # No es verdaderp es falso
-
 print ('--------------------------------------')
 
 #Operadores Aritmeticos
