@@ -2,7 +2,6 @@ from getpass import getpass
 
 def comprobar_contrasenia(texto)->str:
     """Esta funcion verifica si una contraseña ingresada pertenece a una lista de contraseñas comunes
-
     Parámetros:
         texto (str): Texto que corresponde a la contraseña ingresada por el usuario
     Retorno:
