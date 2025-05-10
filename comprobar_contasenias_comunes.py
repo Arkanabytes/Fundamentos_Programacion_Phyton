@@ -5,7 +5,6 @@ def comprobar_contrasenia(texto)->str:
 
     Parámetros:
         texto (str): Texto que corresponde a la contraseña ingresada por el usuario
-
     Retorno:
         str: Cadena de texto que corresponde al mensaje de respuesta al usuario 
     """
