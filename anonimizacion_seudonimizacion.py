@@ -14,8 +14,7 @@ def anonimizar_datos(datos):
 
 def seudonimizar_datos(datos, clave_secreta="mi_clave_segura"):
     """
-    Seudonimiza una lista de datos utilizando un hash seguro.
-    
+    Seudonimiza una lista de datos utilizando un hash seguro. 
     Parámetros:
     - datos (list): Lista de cadenas (por ejemplo, nombres).
     - clave_secreta (str): Clave usada para generar los hashes (evita colisiones entre sistemas).
