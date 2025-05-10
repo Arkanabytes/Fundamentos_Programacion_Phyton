@@ -3,7 +3,6 @@ import hashlib
 def anonimizar_datos(datos):
     """
     Anonimiza una lista de datos reemplazándolos por un valor genérico.
-    
     Parámetros:
     - datos (list): Lista de cadenas (por ejemplo, nombres).
     
