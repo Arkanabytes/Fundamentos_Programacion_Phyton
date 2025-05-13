@@ -6,7 +6,6 @@ pasatiempos = []
 for i in range(3):
     pasatiempo = input(f'Ingrese tres pasatiempos favoritos {i+1}: ')
     pasatiempos.append(pasatiempo)
-
 # Solicito el numero de listado a traves de un print 
 print('\n El listado de los hobbies es: ' )
 for i, pasatiempo in enumerate(pasatiempos, start= 1):
