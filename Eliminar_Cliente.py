@@ -3,7 +3,6 @@ def eliminardatos():
     print("      MODULO ELIMINAR CLIENTE      ")
     print("===================================")
     mostrartodo()
-    
     try:
         elim = int(input("Ingrese valor de ID del Cliente que desea Eliminar: "))
     except ValueError:
