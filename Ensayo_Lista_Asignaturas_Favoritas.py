@@ -7,5 +7,4 @@ print('\nSus asignaturas favoritas son : ')
 for i, asignatura in enumerate(asignaturas, start=1):
     print(f'{i}.{asignatura}')
 
-
 print('\nAutor: Consuelo Pinto')
