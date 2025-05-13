@@ -1,5 +1,4 @@
 # Crea una lista de tus tres asignaturas favoritas
-
 asignaturas = []
 for i in range(3):
     asignatura = input(f' Ingrese sus tres asignaturas favoritas {i+1}: ')
