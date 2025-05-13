@@ -5,7 +5,7 @@ def anonimizar_datos(datos):
     Anonimiza una lista de datos reemplazándolos por un valor genérico.
     Parámetros:
     - datos (list): Lista de cadenas (por ejemplo, nombres).
-    
+
     Retorna:
     - list: Lista de valores anonimizados.
     """
@@ -25,10 +25,8 @@ def seudonimizar_datos(datos, clave_secreta="mi_clave_segura"):
     for dato in datos:
         # Concatenamos el dato con la clave secreta
         combinado = dato + clave_secreta
-        
         # Creamos un hash único usando SHA-256
         hash_dato = hashlib.sha256(combinado.encode()).hexdigest()
-        
         # Usamos una parte del hash como seudónimo
         seudonimos.append(hash_dato[:10])  # Usamos los primeros 10 caracteres del hash
     return seudonimos
