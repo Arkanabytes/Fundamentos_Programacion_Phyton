@@ -1,7 +1,6 @@
 # Crea una tupla 
 # con sus datos nombre, edad, signo
 # imprima con f- strings la siguiente 
-
 # crear 
 mi_tupla=()
 
