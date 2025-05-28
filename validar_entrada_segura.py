@@ -1,6 +1,5 @@
 def valida_entrada(texto)->str:
     """Esta función verifica si una entrada de texto contiene comandos sospechosos que podrían ser peligrosos.
-
     Parámetros:
         texto (str): Texto que corresponde a la entrada ingresada por el usuario
 
