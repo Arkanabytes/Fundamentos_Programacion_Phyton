@@ -5,7 +5,6 @@ import bcrypt   # Para encriptar contraseñas de forma segura
 import sys      # Para controlar el flujo o terminar el programa
 import getpass  # Ocultar contraseña al ingresarla (mas seguro)
 
-
 clientes = {}
 usuarios = {}
 idcliente = 0
